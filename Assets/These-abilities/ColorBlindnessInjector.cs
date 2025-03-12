@@ -42,6 +42,11 @@ public class ColorBlindnessInjector : MonoBehaviour
         {
             CreateColorBlindnessPass(options.AchromiaMaterial);
         }
+
+        if (Input.GetKeyDown(KeyCode.F5))
+        {
+            CreateColorBlindnessPass(options.ContrastMaterial);
+        }
     }
 
     void CreateColorBlindnessPass(Material colorBlindnessMat)
