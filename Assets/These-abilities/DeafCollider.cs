@@ -1,7 +1,10 @@
 using UnityEngine;
 
-public class TAListener : MonoBehaviour
+public class DeafCollider : MonoBehaviour
 {
+    [SerializeField] private float insulation;
+    
+    public float Insulation => insulation;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
