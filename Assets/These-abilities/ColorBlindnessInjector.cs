@@ -7,8 +7,6 @@ public class ColorBlindnessInjector : MonoBehaviour
     [SerializeField] private UniversalRendererData urd;
     
     [SerializeField] private ColorBlindnessOptions options;
-    
-    [SerializeField] private Material colorBlindnessMat;
 
     private FullScreenPassRendererFeature _colorBlindnessFullScreenPass;
 
@@ -25,9 +23,24 @@ public class ColorBlindnessInjector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.F1))
         {
             CreateColorBlindnessPass(options.ProtanopiaMaterial);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F2))
+        {
+            CreateColorBlindnessPass(options.DeuteranopiaMaterial);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F3))
+        {
+            CreateColorBlindnessPass(options.TritanopiaMaterial);
+        }
+
+        if (Input.GetKeyDown(KeyCode.F4))
+        {
+            CreateColorBlindnessPass(options.AchromiaMaterial);
         }
     }
 

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: ColorBlindnessOptions
   m_EditorClassIdentifier: 
   _protanopiaMaterial: {fileID: 2100000, guid: ebfff7c3d5cb51d4798fff30fe6c0395, type: 2}
-  _deuteranopiaMaterial: {fileID: 0}
-  _tritanopiaMaterial: {fileID: 0}
+  _deuteranopiaMaterial: {fileID: 2100000, guid: 895aaee38c0beb74b8c1e7a7bb869453, type: 2}
+  _tritanopiaMaterial: {fileID: 2100000, guid: 52c37bdef2b9adf4aa45bf7b173b4290, type: 2}
+  _achromiaMaterial: {fileID: 2100000, guid: 469633e7ad4dcb9439e1246ff52fb5fe, type: 2}

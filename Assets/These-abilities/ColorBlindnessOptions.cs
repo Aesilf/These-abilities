@@ -6,6 +6,11 @@ public class ColorBlindnessOptions : ScriptableObject
     [SerializeField] private Material _protanopiaMaterial;
     [SerializeField] private Material _deuteranopiaMaterial;
     [SerializeField] private Material _tritanopiaMaterial;
-    
+    [SerializeField] private Material _achromiaMaterial;
+
     public Material ProtanopiaMaterial => _protanopiaMaterial;
+    public Material DeuteranopiaMaterial => _deuteranopiaMaterial;
+    public Material TritanopiaMaterial => _tritanopiaMaterial;
+
+    public Material AchromiaMaterial => _achromiaMaterial;
 }

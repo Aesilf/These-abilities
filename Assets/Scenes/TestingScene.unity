@@ -1108,7 +1108,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   urd: {fileID: 11400000, guid: f288ae1f4751b564a96ac7587541f7a2, type: 2}
   options: {fileID: 11400000, guid: 413e5114928bd8f48ac0a1325d67f07f, type: 2}
-  colorBlindnessMat: {fileID: 2100000, guid: ebfff7c3d5cb51d4798fff30fe6c0395, type: 2}
 --- !u!1 &1333197630
 GameObject:
   m_ObjectHideFlags: 0
